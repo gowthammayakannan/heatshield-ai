@@ -1,0 +1,63 @@
+{
+    "accuracy": 0.834,
+    "classification_report": {
+        "extreme": {
+            "precision": 0.891213389121339,
+            "recall": 0.9726027397260274,
+            "f1-score": 0.9301310043668122,
+            "support": 657.0
+        },
+        "high": {
+            "precision": 0.5333333333333333,
+            "recall": 0.25196850393700787,
+            "f1-score": 0.3422459893048128,
+            "support": 127.0
+        },
+        "low": {
+            "precision": 0.8823529411764706,
+            "recall": 0.5882352941176471,
+            "f1-score": 0.7058823529411765,
+            "support": 51.0
+        },
+        "moderate": {
+            "precision": 0.7037037037037037,
+            "recall": 0.806060606060606,
+            "f1-score": 0.751412429378531,
+            "support": 165.0
+        },
+        "accuracy": 0.834,
+        "macro avg": {
+            "precision": 0.7526508418337117,
+            "recall": 0.6547167859603221,
+            "f1-score": 0.6824179439978332,
+            "support": 1000.0
+        },
+        "weighted avg": {
+            "precision": 0.8143716410971641,
+            "recall": 0.834,
+            "f1-score": 0.8145443613581645,
+            "support": 1000.0
+        }
+    },
+    "model_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": null,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+    }
+}
